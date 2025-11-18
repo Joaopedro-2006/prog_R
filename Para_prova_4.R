@@ -218,7 +218,7 @@ dados %>%
 variaveis <- c("Country", "Timestamp", "Days_Indoors", "mercosul")
 dados13 <- dados %>% 
   select(all_of(variaveis)) # Em all_of,todas as variaveis devem existir, se 
-glimpse(dados13)            # uma n existir no banco de dados, da erro
+glimpse(dados13)            # uma n existir no banco de dados, da erro.
 
 variaveis <- c("Country", "Timestamp", "Days_Indoors", "mercosul", "Futebol")
 dados14 <- dados %>% 
